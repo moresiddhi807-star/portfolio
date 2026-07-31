@@ -448,10 +448,6 @@
             <h3 class="project-card-title">${project.name}</h3>
             <p class="project-card-desc">${project.short}</p>
             <div class="project-card-tags">${project.tech.map((t) => `<span>${t}</span>`).join('')}</div>
-            <div class="project-card-actions">
-              <a href="${project.github}" target="_blank" rel="noopener" class="btn btn-outline btn-sm" onclick="event.stopPropagation()">Code</a>
-              <a href="${project.live}" target="_blank" rel="noopener" class="btn btn-primary btn-sm" onclick="event.stopPropagation()">Live Demo</a>
-            </div>
           </div>
         </article>`;
     }

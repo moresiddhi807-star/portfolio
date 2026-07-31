@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <defs>
+    <linearGradient id="g_project-neuromeet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <pattern id="grid_project-neuromeet" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="400" fill="#18181B"/>
+  <rect width="640" height="400" fill="url(#grid_project-neuromeet)"/>
+  <rect width="640" height="400" fill="url(#g_project-neuromeet)" opacity="0.16"/>
+  <circle cx="120" cy="330" r="140" fill="url(#g_project-neuromeet)" opacity="0.35"/>
+  <circle cx="560" cy="60" r="120" fill="url(#g_project-neuromeet)" opacity="0.3"/>
+  <text x="50%" y="50%" fill="#F4F4F5" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle" dominant-baseline="middle">NeuroMeet AI</text>
+  <text x="50%" y="58%" fill="#A1A1AA" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Project preview placeholder</text>
+</svg>

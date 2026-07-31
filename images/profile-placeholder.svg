@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="pg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="#18181B"/>
+  <rect width="400" height="500" fill="url(#pg)" opacity="0.15"/>
+  <circle cx="200" cy="200" r="80" fill="url(#pg)" opacity="0.9"/>
+  <path d="M80 460c20-90 100-140 120-140s100 50 120 140z" fill="url(#pg)" opacity="0.9"/>
+  <text x="200" y="480" fill="#A1A1AA" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">Photo placeholder replace with your portrait</text>
+</svg>
